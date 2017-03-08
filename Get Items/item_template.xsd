@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RECORDS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="RECORDS" msdata:IsDataSet="true" msdata:Locale="en-US">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RECORD">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="entry" type="xs:string" minOccurs="0" />
+              <xs:element name="class" type="xs:string" minOccurs="0" />
+              <xs:element name="subclass" type="xs:string" minOccurs="0" />
+              <xs:element name="name" type="xs:string" minOccurs="0" />
+              <xs:element name="displayid" type="xs:string" minOccurs="0" />
+              <xs:element name="Quality" type="xs:string" minOccurs="0" />
+              <xs:element name="Flags" type="xs:string" minOccurs="0" />
+              <xs:element name="BuyCount" type="xs:string" minOccurs="0" />
+              <xs:element name="BuyPrice" type="xs:string" minOccurs="0" />
+              <xs:element name="SellPrice" type="xs:string" minOccurs="0" />
+              <xs:element name="InventoryType" type="xs:string" minOccurs="0" />
+              <xs:element name="AllowableClass" type="xs:string" minOccurs="0" />
+              <xs:element name="AllowableRace" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemLevel" type="xs:string" minOccurs="0" />
+              <xs:element name="RequiredLevel" type="xs:string" minOccurs="0" />
+              <xs:element name="RequiredSkill" type="xs:string" minOccurs="0" />
+              <xs:element name="RequiredSkillRank" type="xs:string" minOccurs="0" />
+              <xs:element name="requiredspell" type="xs:string" minOccurs="0" />
+              <xs:element name="requiredhonorrank" type="xs:string" minOccurs="0" />
+              <xs:element name="RequiredCityRank" type="xs:string" minOccurs="0" />
+              <xs:element name="RequiredReputationFaction" type="xs:string" minOccurs="0" />
+              <xs:element name="RequiredReputationRank" type="xs:string" minOccurs="0" />
+              <xs:element name="maxcount" type="xs:string" minOccurs="0" />
+              <xs:element name="stackable" type="xs:string" minOccurs="0" />
+              <xs:element name="ContainerSlots" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_type1" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_value1" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_type2" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_value2" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_type3" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_value3" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_type4" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_value4" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_type5" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_value5" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_type6" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_value6" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_type7" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_value7" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_type8" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_value8" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_type9" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_value9" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_type10" type="xs:string" minOccurs="0" />
+              <xs:element name="stat_value10" type="xs:string" minOccurs="0" />
+              <xs:element name="dmg_min1" type="xs:string" minOccurs="0" />
+              <xs:element name="dmg_max1" type="xs:string" minOccurs="0" />
+              <xs:element name="dmg_type1" type="xs:string" minOccurs="0" />
+              <xs:element name="dmg_min2" type="xs:string" minOccurs="0" />
+              <xs:element name="dmg_max2" type="xs:string" minOccurs="0" />
+              <xs:element name="dmg_type2" type="xs:string" minOccurs="0" />
+              <xs:element name="dmg_min3" type="xs:string" minOccurs="0" />
+              <xs:element name="dmg_max3" type="xs:string" minOccurs="0" />
+              <xs:element name="dmg_type3" type="xs:string" minOccurs="0" />
+              <xs:element name="dmg_min4" type="xs:string" minOccurs="0" />
+              <xs:element name="dmg_max4" type="xs:string" minOccurs="0" />
+              <xs:element name="dmg_type4" type="xs:string" minOccurs="0" />
+              <xs:element name="dmg_min5" type="xs:string" minOccurs="0" />
+              <xs:element name="dmg_max5" type="xs:string" minOccurs="0" />
+              <xs:element name="dmg_type5" type="xs:string" minOccurs="0" />
+              <xs:element name="armor" type="xs:string" minOccurs="0" />
+              <xs:element name="holy_res" type="xs:string" minOccurs="0" />
+              <xs:element name="fire_res" type="xs:string" minOccurs="0" />
+              <xs:element name="nature_res" type="xs:string" minOccurs="0" />
+              <xs:element name="frost_res" type="xs:string" minOccurs="0" />
+              <xs:element name="shadow_res" type="xs:string" minOccurs="0" />
+              <xs:element name="arcane_res" type="xs:string" minOccurs="0" />
+              <xs:element name="delay" type="xs:string" minOccurs="0" />
+              <xs:element name="ammo_type" type="xs:string" minOccurs="0" />
+              <xs:element name="RangedModRange" type="xs:string" minOccurs="0" />
+              <xs:element name="spellid_1" type="xs:string" minOccurs="0" />
+              <xs:element name="spelltrigger_1" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcharges_1" type="xs:string" minOccurs="0" />
+              <xs:element name="spellppmRate_1" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcooldown_1" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcategory_1" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcategorycooldown_1" type="xs:string" minOccurs="0" />
+              <xs:element name="spellid_2" type="xs:string" minOccurs="0" />
+              <xs:element name="spelltrigger_2" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcharges_2" type="xs:string" minOccurs="0" />
+              <xs:element name="spellppmRate_2" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcooldown_2" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcategory_2" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcategorycooldown_2" type="xs:string" minOccurs="0" />
+              <xs:element name="spellid_3" type="xs:string" minOccurs="0" />
+              <xs:element name="spelltrigger_3" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcharges_3" type="xs:string" minOccurs="0" />
+              <xs:element name="spellppmRate_3" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcooldown_3" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcategory_3" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcategorycooldown_3" type="xs:string" minOccurs="0" />
+              <xs:element name="spellid_4" type="xs:string" minOccurs="0" />
+              <xs:element name="spelltrigger_4" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcharges_4" type="xs:string" minOccurs="0" />
+              <xs:element name="spellppmRate_4" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcooldown_4" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcategory_4" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcategorycooldown_4" type="xs:string" minOccurs="0" />
+              <xs:element name="spellid_5" type="xs:string" minOccurs="0" />
+              <xs:element name="spelltrigger_5" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcharges_5" type="xs:string" minOccurs="0" />
+              <xs:element name="spellppmRate_5" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcooldown_5" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcategory_5" type="xs:string" minOccurs="0" />
+              <xs:element name="spellcategorycooldown_5" type="xs:string" minOccurs="0" />
+              <xs:element name="bonding" type="xs:string" minOccurs="0" />
+              <xs:element name="description" type="xs:string" minOccurs="0" />
+              <xs:element name="PageText" type="xs:string" minOccurs="0" />
+              <xs:element name="LanguageID" type="xs:string" minOccurs="0" />
+              <xs:element name="PageMaterial" type="xs:string" minOccurs="0" />
+              <xs:element name="startquest" type="xs:string" minOccurs="0" />
+              <xs:element name="lockid" type="xs:string" minOccurs="0" />
+              <xs:element name="Material" type="xs:string" minOccurs="0" />
+              <xs:element name="sheath" type="xs:string" minOccurs="0" />
+              <xs:element name="RandomProperty" type="xs:string" minOccurs="0" />
+              <xs:element name="block" type="xs:string" minOccurs="0" />
+              <xs:element name="itemset" type="xs:string" minOccurs="0" />
+              <xs:element name="MaxDurability" type="xs:string" minOccurs="0" />
+              <xs:element name="area" type="xs:string" minOccurs="0" />
+              <xs:element name="Map" type="xs:string" minOccurs="0" />
+              <xs:element name="BagFamily" type="xs:string" minOccurs="0" />
+              <xs:element name="ScriptName" type="xs:string" minOccurs="0" />
+              <xs:element name="DisenchantID" type="xs:string" minOccurs="0" />
+              <xs:element name="FoodType" type="xs:string" minOccurs="0" />
+              <xs:element name="minMoneyLoot" type="xs:string" minOccurs="0" />
+              <xs:element name="maxMoneyLoot" type="xs:string" minOccurs="0" />
+              <xs:element name="Duration" type="xs:string" minOccurs="0" />
+              <xs:element name="ExtraFlags" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
